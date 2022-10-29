@@ -2,11 +2,6 @@ import React from "react"
 import { useForm } from "react-hook-form";
 
 export default function Form() {
-<<<<<<< HEAD
-=======
-    
->>>>>>> 2ffa8870ab2985c315c7a6776c5944f0f19f7b0d
-
     return (
         <div>
         
@@ -18,13 +13,7 @@ export default function Form() {
         <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
         <label for="tel">Enter Your Phone Number: <input id="phone" name="phone" type="tel" pattern="[0-9]{10}" /></label>
       </fieldset>
-<<<<<<< HEAD
-=======
-
-    
-
->>>>>>> 2ffa8870ab2985c315c7a6776c5944f0f19f7b0d
-       <fieldset>
+        <fieldset>
         <h4>Meat</h4>
         <label className="items">
             <input  id="Thai Mango Chicken" type="number" min="0" name="Thai Mango Chicken" className="inline" placeholder="quantity" />Thai Mango Chicken
