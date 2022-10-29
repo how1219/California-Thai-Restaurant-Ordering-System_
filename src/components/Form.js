@@ -1,5 +1,4 @@
 import React from "react"
-import { useForm } from "react-hook-form";
 
 export default function Form() {
     return (
@@ -78,21 +77,14 @@ export default function Form() {
 
 
       <fieldset>
-        <label for="pick-up-time">When would you like to come pick up your meal?
-          <select id="pick up time" name="pick up time">
-            <option value="">(select one)</option>
-            <option value="1">in 15min</option>
-            <option value="2">in 30min</option>
-            <option value="3">in 1hr</option>
-            <option value="4">after 1hr</option>
-          </select>
-          </label>
         <label for="note">Note:
           <textarea id="note" name="note" rows="3" cols="30" placeholder="eg: Nooo spicy"></textarea>
         </label>
         <label for="utensils" name="utensils">
           <input id="utensils" type="checkbox" name="utensils" className="inline" />Include utensils and condiments
         </label>
+        <label for="pick-up-time">Your order will be ready in <strong>30 minutes</strong>.
+          </label>
       </fieldset>
       <input type="submit" value="Submit" />
      </form>
