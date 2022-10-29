@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+nav {
+  align-items: center;
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--title {
+  margin-right: auto;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 40;
+}
+
+.established {
+  font-style: italic;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+}
+
+.topImage {
+  max-width: 500px;
+  align-self: center;
+  margin-top: 50;
+}
+
+.menu {
+  width: 80%;
+  background-color: #FFFFF9;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
+  max-width: 500px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.meat, .veggie, .main, .drink {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.meat--title, .veggie--title, .rice--title{
+  margin-top: 40;
+  margin-left: 20;
+  text-align: center;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.meat-card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;    
+  display: flex;         
+  flex-direction: column; 
+  position: relative;
+  margin-top: auto;
+  margin-left: 20;
+}
+
+.meat-card--image {
+  width: 200;
+  height: 200;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meat-card--stats {
+  display: flex;
+  align-items: center;
+}
+
+
+.card--thumb, .card--chilly, .card--white {
+  margin-right: 5;
+  height: 14px;
+}
+
+
+.meat-card--price {
+  margin-top: auto;
+}
+
+.meat-card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.order {
+  margin-top: 20;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.order-button {
+  background-color: #4A4E74;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size:30px;
+  justify-content: center;
+
+}
+
+/* Form */
+.form--title, .form--note {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #EBE3DB;
+  border: 1px solid #EBE3DB;
+  color: black;
+}
+
+.inline {
+  width: 70;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.items{
+  display: flex;
+  align-items: center;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #4A4E74;
+  border-color: white;
+  color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
