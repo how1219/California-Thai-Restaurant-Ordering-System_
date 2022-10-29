@@ -2,18 +2,28 @@ import React from "react"
 import { useForm } from "react-hook-form";
 
 export default function Form() {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 2ffa8870ab2985c315c7a6776c5944f0f19f7b0d
 
     return (
         <div>
         
-            <h1 className="form--title">Food Order Form</h1>
-             <p className="form--note">Please fill out this form to order food</p>
-            <form action="https://getform.io/f/2918b7f1-d47a-401a-bf6d-f72da9ff4e3b" method = "POST">
+         <h1 className="form--title">Food Order Form</h1>
+            <p className="form--note">Please fill out this form to order food</p>
+        <form action="https://getform.io/f/2918b7f1-d47a-401a-bf6d-f72da9ff4e3b" method = "POST">
       <fieldset>
         <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
         <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
         <label for="tel">Enter Your Phone Number: <input id="phone" name="phone" type="tel" pattern="[0-9]{10}" /></label>
       </fieldset>
+<<<<<<< HEAD
+=======
+
+    
+
+>>>>>>> 2ffa8870ab2985c315c7a6776c5944f0f19f7b0d
        <fieldset>
         <h4>Meat</h4>
         <label className="items">
@@ -96,7 +106,7 @@ export default function Form() {
         </label>
       </fieldset>
       <input type="submit" value="Submit" />
-    </form>
+     </form>
     </div>
     )
 }
