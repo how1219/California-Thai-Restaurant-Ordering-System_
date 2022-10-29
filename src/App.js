@@ -70,9 +70,9 @@ const handleClick = event => {
 
         <div className="order">
           <button className="order-button" onClick={handleClick}>Order Now!</button>
-          <div style={{height: '10rem'}} />
+          <div style={{height: 20}} />
           <div ref={ref}>{isShown && <Form />}</div>
-          <div style={{height: '20rem'}} />
+          <div style={{height: 20}} />
           
         </div>
 
