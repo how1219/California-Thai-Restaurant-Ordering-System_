@@ -60,8 +60,10 @@ export default function Form() {
           <input id="Pineapple Fried Rice" type="number" min="0" name="Pineapple Fried Rice" className="inline" />Pineapple Fried Rice
          </label>
          <label className="items">
-           <input id="classNameic Pad Thai" type="number" min="0" name="classNameic Pad Thai" className="inline" />classNameic Pad Thai
+           <input id="Classic Pad Thai" type="number" min="0" name="Classic Pad Thai" className="inline" />Classic Pad Thai
          </label>
+         <label className="items">
+           <input id="Classic Pad Thai Spicy" type="number" min="0" name="Classic Pad Thai Spicy" className="inline" />Classic Pad Thai Spicy</label>
          <label className="items">
           <input id="White Rice" type="number" min="0" name="White Rice" className="inline" />White Rice</label>
          <h4>Drinks</h4>
