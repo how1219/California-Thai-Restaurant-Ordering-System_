@@ -2,7 +2,7 @@ import React from "react"
 
 export default function MeatCard(props) {
     let badgeText
-    if (props.item.openSpots === 0) {
+    if (props.item.availableQuantity === 0) {
         badgeText = "SOLD OUT"
     }
 

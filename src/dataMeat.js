@@ -8,7 +8,7 @@ export default [
         thumbUp: "thumbUp.png",
         chilly:"",
         white:"white.png",
-        openSpots: 100,
+        availableQuantity: 100,
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ export default [
         thumbUp: "thumbUp.png",
         chilly:"",
         white:"white.png",
-        openSpots: 27,
+        availableQuantity: 100,
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ export default [
         thumbUp: "thumbUp.png",
         chilly:"chiliLogo.jpg",
         white:"white.png",
-        openSpots: 3,
+        availableQuantity: 100,
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ export default [
         thumbUp: "",
         chilly:"",
         white:"white.png",
-        openSpots: 3,
+        availableQuantity: 100,
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ export default [
         thumbUp: "",
         chilly:"",
         white:"white.png",
-        openSpots: 3,
+        availableQuantity: 100,
     },
     {
         id: 6,
@@ -58,7 +58,7 @@ export default [
         thumbUp: "",
         chilly:"chiliLogo.jpg",
         white:"white.png",
-        openSpots: 3,
+        availableQuantity: 100,
     },
     {
         id: 7,
@@ -68,6 +68,6 @@ export default [
         thumbUp: "",
         chilly:"chiliLogo.jpg",
         white:"white.png",
-        openSpots: 3,
+        availableQuantity: 100,
     }
 ]

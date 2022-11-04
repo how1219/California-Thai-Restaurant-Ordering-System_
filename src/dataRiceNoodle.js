@@ -8,7 +8,7 @@ export default [
         thumbUp: "",
         chilly:"",
         white:"white.png",
-        openSpots: 100,
+        availableQuantity: 100,
     },
     {
         id: 2,
@@ -18,11 +18,7 @@ export default [
         thumbUp: "",
         chilly:"",
         white:"white.png",
-        stats: {
-            rating: 5.0,
-            reviewCount: 30
-        },
-        openSpots: 100,
+        availableQuantity: 100,
     },
     {
         id: 3,
@@ -32,7 +28,7 @@ export default [
         thumbUp: "",
         chilly:"",
         white:"white.png",
-        openSpots: 100,
+        availableQuantity: 100,
     },
     {
         id: 4,
@@ -42,7 +38,7 @@ export default [
         thumbUp: "",
         chilly:"chiliLogo.jpg",
         white:"white.png",
-        openSpots: 100,
+        availableQuantity: 100,
     },
     {
         id: 5,
@@ -52,6 +48,6 @@ export default [
         thumbUp: "",
         chilly:"",
         white:"white.png",
-        openSpots: 100,
+        availableQuantity: 100,
     }
 ]
