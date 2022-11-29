@@ -28,7 +28,7 @@ nav {
   font-style: italic;
 }
 
-.top{
+.top {
   display: flex;
   justify-content: center;
 }
@@ -49,7 +49,8 @@ nav {
   max-width: 500px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Impact, serif;
 }
 
@@ -64,7 +65,10 @@ h1, h2 {
   font-size: 18px;
 }
 
-.meat, .veggie, .main, .drink {
+.meat,
+.veggie,
+.main,
+.drink {
   text-align: left;
   width: 75%;
 }
@@ -82,7 +86,9 @@ h1, h2 {
   color: #918E9B;
 }
 
-.meat--title, .veggie--title, .rice--title{
+.meat--title,
+.veggie--title,
+.rice--title {
   margin-top: 40;
   margin-left: 20;
   text-align: center;
@@ -98,9 +104,9 @@ h1, h2 {
 .meat-card {
   width: 175px;
   font-size: 12px;
-  flex: 0 0 auto;    
-  display: flex;         
-  flex-direction: column; 
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
   position: relative;
   margin-top: auto;
   margin-left: 20;
@@ -125,7 +131,9 @@ h1, h2 {
 }
 
 
-.card--thumb, .card--chilly, .card--white {
+.card--thumb,
+.card--chilly,
+.card--white {
   margin-right: 5;
   height: 14px;
 }
@@ -158,13 +166,22 @@ h1, h2 {
   color: white;
   border-radius: 5px;
   padding: 1rem;
-  font-size:30px;
+  font-size: 30px;
   justify-content: center;
+  transition: all 0.25s;
+
+}
+
+.order-button:hover {
+  transform: translateY(-0.25em);
+  box-shadow: 0 0.5em 0.5em -0.4em #4A4E74;
+  cursor: pointer;
 
 }
 
 /* Form */
-.form--title, .form--note {
+.form--title,
+.form--note {
   margin: 1em auto;
   text-align: center;
 }
@@ -200,7 +217,8 @@ select {
   min-height: 2em;
 }
 
-input, textarea {
+input,
+textarea {
   background-color: #EBE3DB;
   border: 1px solid #EBE3DB;
   color: black;
@@ -212,7 +230,7 @@ input, textarea {
   vertical-align: middle;
 }
 
-.items{
+.items {
   display: flex;
   align-items: center;
 }
@@ -227,6 +245,13 @@ input[type="submit"] {
   border-color: white;
   color: white;
   min-width: 300px;
+  transition: all 0.25s;
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-0.25em);
+  box-shadow: 0 0.5em 0.5em -0.4em #4A4E74;
+  cursor: pointer;
 }
 
 input[type="file"] {
